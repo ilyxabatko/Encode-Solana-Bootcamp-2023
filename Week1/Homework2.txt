@@ -1,0 +1,17 @@
+. How many validators are there currently ?
+1837 and superminority = 33 (https://solanabeach.io/validators)
+
+. What is special about this block? (https://explorer.solana.com/block/0)
+this is a genesis block of Solana, but I can't understand why it has a parent hash, because block 0 doesn't have a parent block.
+
+. What is special about this address? (https://explorer.solana.com/address/1nc1nerator11111111111111111111111111111111)
+I love the way this custom address looks. It was most likely was generetad with the "grind" Solana cli flag. The account associated with this address does not exist, and there are no SOL tokens (lamports) or data allocated to it. 
+
+. What is this transaction doing? (https://explorer.solana.com/tx/45pGoC4Rr3fJ1TKrsiRkhHRbdUeX7633XAGVec6XzVdpRbzQgHhe6ZC6Uq164MPWtiqMg7wCkC6Wy3jy2BqsDEKf)
+This is a transfer transaction, from an account to the "Incinerator" account. So I guees, the previous account is a burning one.
+
+. What is the largest account you can find ?
+I used this service to find the "reachest" account - https://www.coincarp.com/currencies/solana/richlist/. The top Solana holder has 17_718_952 SOL.
+
+. What advantages will the end user see when using Solana compared to other blockchains ?
+High throughput and low latency, low tx fees, supportive community (Solana commnuity one love), developer-friendly ecosystem.
