@@ -67,6 +67,10 @@ async function main() {
   } else {
     console.log(`\nProgram ${PROGRAM_SO_PATH} not deployed!\n`);
   }
+
+  // retrieve and print the program account balance 
+  let balance = await connection.getBalance(programID);
+  console.log("Program Account Balance: " + balance);
 }
 
 export async function deployGreetAccount(
@@ -150,7 +154,7 @@ export async function deployGreetAccount(
     "has been greeted",
     greeting.counter,
     "time(s)"
-  );
+  );  
 }
 
 /**

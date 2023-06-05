@@ -68,6 +68,11 @@ async function main() {
   } else {
     console.log(`\nProgram ${PROGRAM_SO_PATH} not deployed!\n`);
   }
+
+  // retrieve and print the program size
+  await connection.getAccountInfo(programID).then((accountInfo) => {
+    console.log("Program (" + programID.toBase58() + ") size: " + accountInfo?.data.length + " bytes");
+  });
 }
 /**
  *

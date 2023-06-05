@@ -25,7 +25,7 @@ pub fn process_instruction(
 ) -> ProgramResult {
     msg!("[lib] Solana Example2 counter program entrypoint");
 
-    // Iterating accounts is safer then indexing
+    // Iterating accounts is safer than indexing
     let accounts_iter = &mut accounts.iter();
 
     // Get the account to say hello to
@@ -42,6 +42,7 @@ pub fn process_instruction(
     }
 
     // Create a struct that's easy to interact with programatcially from account data
+    // deserialization, I guess
     let mut greeting_struct = GreetingStruct::try_from_slice(&hello_account.data.borrow())?;
 
     // Increment by one
