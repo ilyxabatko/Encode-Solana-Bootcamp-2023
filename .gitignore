@@ -2,3 +2,7 @@
 **/node_modules
 **/target
 **/test-ledger
+*/homework12+/SolanaBootcamp/examples_baremetal/example1-helloworld
+*/homework12+/SolanaBootcamp/examples_baremetal/example2-counter
+*/homework12+/SolanaBootcamp/examples_baremetal/example3-multifunc
+*/homework12+/SolanaBootcamp/homeworks_rust
